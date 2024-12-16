@@ -27,6 +27,7 @@ class TimeSeriesHierarchicalClustering:
         self.method: str = method
         self.model: Optional[AgglomerativeClustering] = None
         #self.linkage_matrix: np.ndarray | None = None
+        
         self.linkage_matrix: Optional[np.ndarray] = None
 
 
